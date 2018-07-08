@@ -1,0 +1,326 @@
+/* fonts family */
+@font-face {
+  font-family: 'vijaya';
+  src: url('../fonts/vijaya.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Metrize-Icons';
+  src: url('../fonts/Metrize-Icons.eot');
+  src: url('../fonts/Metrize-Icons.eot?#iefix') format('embedded-opentype'), url('../fonts/Metrize-Icons.woff') format('woff'), url('../fonts/Metrize-Icons.ttf') format('truetype'), url('../fonts/Metrize-Icons.svg#Metrize-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-size: 10px;
+  box-sizing: content-box;
+  position: relative;
+}
+.nav {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav > .active > a {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #ff5252;
+  padding-bottom: 2.1rem;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #f8f8f8;
+  padding-bottom: 2.1rem;
+}
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #ff5252;
+  padding-bottom: 2.1rem;
+}
+.navbar-nav > li > a:hover {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #ff5252;
+  padding-bottom: 2.1rem;
+}
+.navbar-nav > li > a:focus {
+  background-color: #f8f8f8;
+  padding-bottom: 2.1rem;
+}
+.navbar-nav > li > a {
+  background-color: #f8f8f8;
+  margin-left: 0.5rem;
+}
+.navbar-default {
+  min-height: 7rem;
+  border-width: 2px;
+}
+.navbar-brand {
+  font-size: 5rem;
+  font-family: 'vijaya', sans-serif;
+}
+.menu {
+  position: relative;
+  top: 1rem;
+}
+.slide {
+  background: #ffffff url(../img/bg-9.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.slide-ten {
+  background-color: #0000000d;
+  height: 100vh;
+}
+.slide-title {
+  width: 100%;
+  position: relative;
+  top: 18rem;
+  text-align: center;
+}
+.slide-title h1 {
+  font: 700 4rem/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+  color: #808080;
+}
+.slide-title p {
+  font-family: Raleway, "Times New Roman", Times, sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  text-transform: none;
+  margin: 15px 0;
+  line-height: 8rem;
+  color: #808080;
+}
+.portfolio {
+  width: 100%;
+  padding: 8rem 0;
+  background-color: #f5f5f5;
+}
+.portfolio h1 {
+  color: #808080;
+  font: 700 40px/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.portfolio span {
+  display: inline-block;
+  background: rgba(135, 135, 135, 0.5);
+  width: 100px;
+  height: 1px;
+  margin: 30px auto;
+}
+.portfolio-mywork {
+  background: #fff;
+  border-bottom: 2px solid #d4d4d4;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 3rem;
+  box-shadow: 0px 2px 5px 0px #d4d4d4;
+}
+.portfolio-mywork img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-mywork h2 {
+  font-size: 2.5rem;
+}
+.portfolio-mywork a {
+  text-decoration: none;
+  color: #808080;
+  text-transform: uppercase;
+}
+.portfolio-mywork a:focus {
+  outline: none;
+}
+.portfolio-mywork:hover {
+  border-bottom: 2px solid #ff5252;
+  transition: 0.5s;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-dialog {
+  margin: 2rem auto;
+}
+.about {
+  background-color: #fff;
+  padding: 8rem 0;
+  text-align: center;
+}
+.about-avatar {
+  text-align: left;
+}
+.about-info {
+  text-align: left;
+}
+.about h1 {
+  font: 700 4rem/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+  color: #808080;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.about img {
+  width: 70%;
+  box-shadow: 15px 15px 1px 0px #ffd7d7;
+  margin: 3rem 0;
+}
+.about h3 {
+  font-size: 24px;
+  color: #666;
+}
+.about p {
+  font-size: 1.6rem;
+  margin: 2.7rem 0;
+  color: #777;
+}
+.about span {
+  font-weight: 600;
+  color: #666;
+}
+.about ul {
+  font-size: 1.6rem;
+  color: #777;
+}
+.about em {
+  font-size: 2rem;
+  background-color: #d2d2d2;
+  padding: 0.2rem;
+  margin: 0 0.5rem;
+}
+.contact {
+  background-color: #f5f5f5;
+  padding: 8rem 0;
+  text-align: center;
+}
+.contact-info {
+  text-align: left;
+}
+.contact-sotset {
+  font-size: 4rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+.contact-sotset a {
+  color: #ff5252;
+  text-decoration: none;
+}
+.contact-sotset a:hover {
+  color: #bd5e5e;
+  text-decoration: none;
+}
+.contact-sotset a:focus {
+  color: #ff5252;
+  text-decoration: none;
+}
+.contact-form textarea {
+  height: auto;
+  border-radius: 0;
+  font-size: 1.8rem;
+}
+.contact-form input {
+  height: auto;
+  border-radius: 0;
+}
+.contact h1 {
+  font: 700 4rem/1.2 Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 5px 0 5px;
+  color: #808080;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.contact ul {
+  list-style: none;
+  font-size: 1.8rem;
+  font-family: Metrize-Icons;
+  color: #ff5252;
+}
+.contact ul li {
+  margin: 2rem 0;
+}
+.contact ul a {
+  text-decoration: none;
+  color: #ff5252;
+}
+.contact ul a:hover {
+  text-decoration: none;
+  color: #bd5e5e;
+}
+.contact p {
+  line-height: 5.2rem;
+  font-family: Metrize-Icons;
+}
+.contact span {
+  margin-right: 3rem;
+}
+.btn-block {
+  background-color: #ff5252;
+  border-color: #ff5252;
+  font-size: 2rem;
+  border-radius: 0;
+}
+.btn:hover {
+  background-color: #bd5e5e;
+  border-color: #bd5e5e;
+  outline: none;
+}
+.btn:active:hover {
+  background-color: #bd5e5e;
+  border-color: #bd5e5e;
+  outline: none;
+}
+.btn:focus {
+  background-color: #ff5252;
+  border-color: #ff5252;
+  outline: none;
+}
+/* Model fade  */
+.foto {
+  width: 100%;
+  height: 75vh;
+}
+.footer {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 2rem;
+  border-top: 1px solid #ff5252;
+}
+@media (max-width: 520px) {
+  .slide-title {
+    top: 10rem;
+  }
+  .slide-title h1 {
+    font-size: 2rem;
+  }
+  .slide-title p {
+    font-size: 1.6rem;
+  }
+  .contact ul {
+    padding: 0;
+  }
+}
+@media (max-width: 320px) {
+  .slide {
+    background: #ffffff url(../img/bg-9.jpg) -24rem 0 no-repeat;
+    background-size: cover;
+  }
+  .slide-title {
+    top: 7rem;
+  }
+  .slide-title h1 {
+    font-size: 2rem;
+  }
+  .slide-title p {
+    font-size: 1.4rem;
+  }
+  .contact ul {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
